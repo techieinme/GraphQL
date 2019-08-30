@@ -1,0 +1,30 @@
+{
+  "name": "GraphQL tuts",
+  "version": "1.0.0",
+  "description": "GraphQL is an open source server-side technology which was developed by Facebook to optimize RESTful API calls. It is an execution engine and a data query language",
+  "main": "server.js",
+  "dependencies": {
+    "apollo-server-express": "^2.4.8",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.5.4",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/techieinme/GraphQL.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/techieinme/GraphQL/issues"
+  },
+  "homepage": "https://github.com/techieinme/GraphQL#readme"
+}
